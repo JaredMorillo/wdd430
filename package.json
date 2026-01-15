@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "cd nextjs-dashboard && pnpm dev",
+    "build": "cd nextjs-dashboard && pnpm build",
+    "start": "cd nextjs-dashboard && pnpm start"
+  }
+}
