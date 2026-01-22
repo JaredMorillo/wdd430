@@ -1,7 +1,10 @@
 {
   "scripts": {
-    "dev": "cd nextjs-dashboard && pnpm dev",
-    "build": "cd nextjs-dashboard && pnpm build",
-    "start": "cd nextjs-dashboard && pnpm start"
+    "dev": "cd nextjs-dashboard && npm dev",
+    "build": "cd nextjs-dashboard && npm run build",
+    "start": "cd nextjs-dashboard && npm start"
+  },
+  "dependencies": {
+    "next": "latest"
   }
 }
