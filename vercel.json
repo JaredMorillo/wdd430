@@ -1,6 +1,15 @@
 {
-  "root": "nextjs-dashboard",
-  "buildCommand": "npm run build",
-  "installCommand": "npm install --legacy-peer-deps",
-  "devCommand": "npm run dev"
+  "version": 2,
+  "builds": [
+    {
+      "src": "nextjs-dashboard/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "nextjs-dashboard/$1"
+    }
+  ]
 }
